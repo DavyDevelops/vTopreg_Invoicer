@@ -25,6 +25,11 @@ function Header() {
     damping : 10
   }
   return (
+
+
+    <header>
+      {/* Header */}
+
     <div className="lg:hidden h-[80px] z-50 duration-300 ease-in-out p-4 dark:bg-[#1e2139] bg-[#373b53] flex items-center justify-end">
       {/* Logo Image */}
       <img src={logo} alt="logo" className="h-[80px] absolute top-0 left-0" />
@@ -64,10 +69,15 @@ function Header() {
         className='h-[80px] border-dotted border-l border-[#494e6e] mx-6'
         ></div>
         <div className=' relative'>
-          <img src={profile} alt="profile" className='rounded-full h-[50px]'/>
+          <img src={profile} alt="profile" className='rounded-full h-[40px]'/>
           </div>
       </div>
     </div>
+    
+    
+    {/* Header */}
+    
+    </header>
   );
 }
 
