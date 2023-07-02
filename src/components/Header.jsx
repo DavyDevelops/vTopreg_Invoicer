@@ -2,7 +2,7 @@ import React, { Profiler, useState } from 'react';
 import logo from '../assets/logo.png';
 import moon from '../assets/icon-moon.svg';
 import sun from '../assets/icon-sun.svg';
-import profilr
+import profile from '../assets/image-avatar.jpg'
 
 import useDarkMode from '../hooks/useDarkMode';
 import usseDarkMode from '../hooks/useDarkMode';
@@ -64,7 +64,8 @@ function Header() {
         className='h-[80px] border-dotted border-l border-[#494e6e] mx-6'
         ></div>
         <div className=' relative'>
-          <img src={profile} alt=""/>
+          <img src={profile} alt="profile" className='rounded-full h-[50px]'/>
+          </div>
       </div>
     </div>
   );
